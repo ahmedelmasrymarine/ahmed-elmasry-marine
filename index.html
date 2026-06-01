@@ -6,23 +6,16 @@
 <title>Ahmed Elmasry Marine Trading</title>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,sans-serif;
-}
-
 body{
-    background:#f5f5f5;
-    color:#222;
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#333;
 }
 
-header{
+.hero{
     height:100vh;
-    background:url('https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=crop&w=1600&q=80');
-    background-size:cover;
-    background-position:center;
+    background:url('https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -36,19 +29,19 @@ header{
     color:white;
 }
 
-.overlay h1{
+h1{
+    margin:0;
     font-size:48px;
-    margin-bottom:10px;
 }
 
-.overlay p{
-    font-size:20px;
-    margin-bottom:20px;
+p{
+    font-size:18px;
 }
 
 .whatsapp{
     display:inline-block;
-    padding:15px 30px;
+    margin-top:20px;
+    padding:14px 30px;
     background:#25D366;
     color:white;
     text-decoration:none;
@@ -56,97 +49,32 @@ header{
     font-weight:bold;
 }
 
-section{
-    max-width:1000px;
-    margin:auto;
-    padding:60px 20px;
-}
-
-h2{
-    margin-bottom:20px;
-    color:#0b4f8a;
-}
-
-.services{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
-}
-
-.card{
-    background:white;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 2px 10px rgba(0,0,0,.1);
-}
-
 footer{
-    background:#0b4f8a;
-    color:white;
     text-align:center;
     padding:20px;
+    background:#111;
+    color:white;
 }
 </style>
 </head>
 
 <body>
 
-<header>
+<section class="hero">
     <div class="overlay">
         <h1>Ahmed Elmasry Marine Trading</h1>
         <p>Ship Scrap & Used Marine Equipment Buyer</p>
 
         <a class="whatsapp"
-        href="https://wa.me/201141198500">
+        href="https://wa.me/201141198500"
+        target="_blank">
         Contact on WhatsApp
         </a>
     </div>
-</header>
-
-<section>
-    <h2>About Us</h2>
-
-    <p>
-        We purchase ship scrap, surplus marine equipment,
-        navigation devices, generators, pumps, cables,
-        safety equipment and other marine materials from
-        vessels calling Port Said and Suez.
-    </p>
-</section>
-
-<section>
-    <h2>Our Services</h2>
-
-    <div class="services">
-
-        <div class="card">
-            <h3>Ship Scrap Purchasing</h3>
-            <p>Buying surplus and scrap materials from vessels.</p>
-        </div>
-
-        <div class="card">
-            <h3>Marine Equipment Trading</h3>
-            <p>Purchase of used marine spare parts and equipment.</p>
-        </div>
-
-        <div class="card">
-            <h3>Fast Response</h3>
-            <p>Quick inspection and fair offers for all items.</p>
-        </div>
-
-    </div>
-</section>
-
-<section>
-    <h2>Contact</h2>
-
-    <p><strong>Ahmed Elmasry</strong></p>
-    <p>WhatsApp: +20 114 119 8500</p>
-    <p>Port Said & Suez, Egypt</p>
 </section>
 
 <footer>
-    © 2025 Ahmed Elmasry Marine Trading
+    Port Said & Suez, Egypt
 </footer>
 
 </body>
